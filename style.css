@@ -1,0 +1,63 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(rgb(166, 151, 151), rgb(0, 0, 0), rgb(24, 24, 46), alpha);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#resume {
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-width: 600px;
+}
+img{
+    border-radius: 40px;
+}
+
+[contenteditable="true"] {
+    border: 1px dashed #aaa;
+    padding: 5px;
+    min-height: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
